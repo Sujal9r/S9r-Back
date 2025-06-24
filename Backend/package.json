@@ -1,0 +1,35 @@
+{
+  "name": "s9r-technology-backend",
+  "version": "1.0.0",
+  "description": "Backend for S9r Technology developer management system",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "setup-email": "node scripts/setup-email.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.16.0",
+    "nodemailer": "^6.9.7",
+    "statuses": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "nodemailer",
+    "developer-management",
+    "api",
+    "backend"
+  ],
+  "author": "S9r Technology",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
